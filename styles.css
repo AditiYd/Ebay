@@ -1,0 +1,116 @@
+.logo{
+    font-size: 5vw;
+    fill: rgb(250, 175, 187) !important;
+}
+
+.logo:hover {
+  transform: scale(1.15); 
+}
+
+.nav-link{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover{
+    color: pink !important;
+    transform: scale(1.1);
+}
+
+body{
+    background-color: #cdc2c2;
+}
+
+.card {
+    margin-bottom: 20px;
+    height: 35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-img-top{
+    height: 18rem;
+}
+
+.card-title{
+    font-size: 20px; 
+    margin-top: 1rem;
+}
+
+.card-price {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.productHeading{
+    margin: 1rem 0 1rem 3rem;
+    font-size: 2vw;
+    margin-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.highlight{
+    color: pink !important;
+}
+
+.cart-img{
+    height:25rem;
+    margin:10vh;
+}
+
+.cartLogo{
+    fill:white;
+    margin-top: 0.5rem;
+}
+.checkout-img{
+    height:10rem;
+}
+.cartLogo:hover{
+    fill:pink !important;
+}
+.prod-heading{
+    align-items: center;
+    display: flex;
+    
+}
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vw 15vw;
+}
+.custom-img{
+    width: 20vw;
+    border-radius: 0.8vw;
+}
+.custom-cardButton{
+    background-color: rgb(134, 107, 111);
+    border: 0;
+}
+.prodDetails{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80%;
+    margin-bottom: 2vw;
+}
+
+.custom-image{
+    border-radius: 0.8vw;
+}
+.quantity-container{
+    margin: 1vw 0.5vw;
+}
+.tit{
+    font-size: 1.2vw;
+}
+.btn-primary{
+    background-color: rgb(134, 107, 111);
+    border: 0; 
+}
+.card-body{
+    background-color: rgb(213, 187, 191);
+}
